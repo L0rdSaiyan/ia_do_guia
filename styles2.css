@@ -204,11 +204,16 @@ body {
   .chat-2 {
     right: 12%;
   }
+
+  
+
 }
 
-@media screen and (max-width: 700) {
+
+
+@media screen and (max-width: 700px) {
   .chat-1 {
-    left: 20%;
+    left: 10%;
   }
 
   .chat-2 {
@@ -233,7 +238,10 @@ body {
   .iconBot {
     bottom: 500px;
   }
+
+  
 }
+
 
 @keyframes sendMsg-ia {
   from {
@@ -329,13 +337,36 @@ body {
     inset 5px 5px 8px rgba(0, 0, 0, 0.5);
 }
 
+
+
+@media (max-height: 600px){
+
+  .chat{
+
+    top: 900px;
+
+  }
+
+}
+
+@media (min-height: 700px){
+
+  .chat{
+
+    top: 800px;
+
+  }
+
+
+}
+
 .container-2 {
   display: flex;
   justify-content: center;
   align-items: center;
   position: absolute;
   height: 100%;
-  width: 100%;
+  width: 100%; 
   z-index: -1;
   background-color: #affff8;
 }
@@ -458,3 +489,4 @@ body {
   }
 
 }
+
