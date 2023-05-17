@@ -24,7 +24,7 @@ body {
 }
 
 .header-msg-1 {
-  bottom: 160px;
+  bottom: 114px;
 }
 
 .header-msg-1,
@@ -162,6 +162,8 @@ body {
   top: 380px;
   left: 10%;
 }
+
+
 
 @media screen and (max-width: 800px) {
   .chat-1 {
